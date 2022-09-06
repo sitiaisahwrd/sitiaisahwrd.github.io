@@ -1,0 +1,52 @@
+		body{
+			text-align: center;
+		}
+		table{
+			margin: 0px 0px 0px 25%;
+			width: 50%;
+			border: 1px solid black;
+		}
+		th{
+			background-color: blue;
+			color: white;
+			height: 30px;
+		}
+		td{
+			color: black;
+		}
+		td:hover{
+			background-color:gray;
+		}
+		a{
+			color: white;
+			text-decoration: none;
+		}
+		.btn3{
+			background-color: orange;
+			margin: 20px 0px 0px 50%;
+			height: 40px;
+			width: 100px;
+		}
+		.btn3:hover{
+			background-color: darkorange;
+		}
+		.btn1{
+			height: 30px;
+			width: 100%;
+			background-color: skyblue;
+		}
+		.btn1:hover{
+			background-color: blue;
+			color: white;
+			cursor: pointer;
+		}
+		.btn2{
+			background-color: pink;
+			height: 30px;
+			width: 100%;
+		}
+		.btn2:hover{
+			background-color: red;
+			color: white;
+			cursor: pointer;
+		}
