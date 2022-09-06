@@ -1,0 +1,40 @@
+		body{
+			text-align: center;
+		}
+		table{
+			margin: 0px 0px 0px 25%;
+			width: 50%;
+		}
+		tr{
+			background-color: #e7e9ea;
+		}
+		tr:nth-child(even):hover,tr:hover{
+			background-color: #a9a9aa;
+		}
+		tr:nth-child(even){
+			background-color: #c0c1c1;
+		}
+		h1{
+			color: blue;
+		}
+		th{
+			height: 30px;
+			background-color: blue;
+			color: white;
+		}
+		td{
+			color: black;
+		}
+		a{
+			color: white;
+			text-decoration: none;
+		}
+		.btn3{
+			background-color: orange;
+			margin: 20px 0px 0px 50%;
+			height: 40px;
+			width: 100px;
+		}
+		.btn3:hover{
+			background-color: darkorange;
+		}
