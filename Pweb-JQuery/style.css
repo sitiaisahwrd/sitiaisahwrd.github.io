@@ -1,0 +1,53 @@
+		body{
+			text-align: center;
+		}
+		table{
+			margin: 0px 0px 0px 25%;
+			width: 50%;
+			border: 1px solid black;
+		}
+		thead{
+			background-color: blue;
+			color: white;
+			height: 30px;
+		}
+		td{
+			color: black;
+		}
+		td:hover{
+			background-color: lightgray;
+		}
+		a{
+			color: white;
+			text-decoration: none;
+		}
+		.btn3{
+			background-color: orange;
+			border-radius: 10px;
+			margin: 20px 0px 0px 50%;
+			height: 40px;
+			width: 100px;
+		}
+		.btn3:hover{
+			background-color: darkorange;
+		}
+		.sunting{
+			height: 30px;
+			width: 100px;
+			background-color: skyblue;
+		}
+		.sunting:hover{
+			background-color: blue;
+			color: white;
+			cursor: pointer;
+		}
+		.hapus{
+			background-color: pink;
+			height: 30px;
+			width: 100px;
+		}
+		.hapus:hover{
+			background-color: red;
+			color: white;
+			cursor: pointer;
+		}
