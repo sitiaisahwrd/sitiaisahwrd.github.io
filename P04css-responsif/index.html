@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>form PMB</title>
+	<link rel="stylesheet" type="text/css" href="style_sitiaisah.css">
+</head>
+<body>
+	<form>
+		<header>
+			<img src="logo.jpg">
+		</header>
+		<h3> FORMULIR PENDAFTARAN PMB </h3>
+		<div>
+			<h4>DATA NAMA CALON PMB</h4>
+			<h6>nama calon</h6>
+			<input type="text" name="nama" placeholder="nama calon">
+			<h6>email</h6>
+			<input type="text" name="email" placeholder="nama email">
+			<h6>password</h6>
+			<input type="password" name="password" placeholder="password">
+			<h6>No HP</h6>
+			<input type="number" name="no_hp" placeholder="no hp">
+			<h6>No Whatsapp</h6>
+			<input type="number" name="no_wa" placeholder="no Whatsapp">
+			<h6>NIK</h6>
+			<input type="number" name="nik" placeholder="no nik">
+			<h6>no NISN</h6>
+			<input type="number" name="no_nisn" placeholder="no nisn">
+			<h6>tempat lahir</h6>
+			<input type="text" name="tempat_lahir" placeholder="tempat lahhir">
+			<h6>tanggal lahir</h6>
+			<input type="date" name="tgl_lahir" placeholder="tanggal lahir">
+			<h6>Jenis Kelamin</h6>
+				<input type="radio" name="jenis_kelamin" value="laki laki">laki-laki
+			<br><input type="radio" name="jenis_kelamin" value="perempuan">perempuan</td>
+			<h6>status</h6>
+				<input type="radio" name="Status" value="belum menikah">belum menikah
+			<br><input type="radio" name="Status" value="sudah menikah">sudah menikah</td>
+			<h6>Agama</h6>
+			<select name="Agama">
+			<option value="islam">Islam</option>
+			<option value="Kristen_protestan">Kristen protestan</option>
+			<option value="Kristen_Khatolik">Kristen khatolik</option>
+			<option value="Hindu">Hindu</option>
+			<option value="Budha">Budha</option>
+			<option value="Khong_HuCu">Khong Hu Cu</option>
+			</select>
+			<h6>Warga negara</h6>
+			<input type="radio" name="warga_negara" value="WNI">WNI
+			<br><input type="radio" name="warga_negara" value="WNA">WNA</td>
+			<h6>Alamat</h6>
+			<textarea placeholder="alamat"></textarea>
+			<br>Rt<input type="number" name="Rt" placeholder="Rt" class="kolom-rt">
+				Rw<input type="number" name="Rw" placeholder="Rw" class="kolom-rt">
+			<br>
+			<input type="text" name="desa" placeholder="Desa">
+			<br>
+			<input type="number" name="kode_pos" placeholder="kode pos">
+			<h6>no Kartu Indonesia Pintar</h6>
+			<input type="number" name="no_kip" placeholder="no kip">
+		</div>
+		<div>
+			<h4>DATA ORANGTUA</h4>
+			<h6>Nama Ayah</h6>
+			<input type="text" name="nama_ayah" placeholder="nama ayah">
+			<h6>Pekerjaan Ayah</h6>
+			<select name="pekerjaan">
+				<option value="PNS">PNS</option>
+				<option value="Dokter">Dokter</option>
+				<option value="Wiraswasta">Wiraswasta</option>
+				<option value="lainnya">lainnya<input type="text" name="pekerjaan" placeholder="lainnya"></option>
+			</select>
+			<h6>Nama Ibu</h6>
+			<input type="text" name="nama_ibu" placeholder="nama ibu">
+			<h6>Pekerjaan Ibu</h6>
+			<select name="pekerjaan">
+				<option value="PNS">PNS</option>
+				<option value="Dokter">Dokter</option>
+				<option value="Wiraswasta">Wiraswasta</option>
+				<option value="IRT">Ibu rumah tangga</option>
+				<option value="lainnya">lainnya<input type="text" name="pekerjaan" placeholder="lainnya"></option>
+			</select>
+		</div>
+		<div>
+			<h4>DATA PEKERJAAN CALON PMB</h4>
+			<h6>Instansi Kerja</h6>
+			<input type="text" name="Instansi" placeholder="nama Instansi">
+			<h6>Jabatan Kerja</h6>
+			<select name="jabatan">
+				<option value="manager">manager</option>
+				<option value="HR">HR</option>
+				<option value="Marketing">marketing</option>
+				<option value="Administrasi">Administrasi</option>
+				<option value="lainnya">lainnya<input type="text" name="jabatan" placeholder="lainnya"></option>
+			</select>
+			<h6>Alamat Kerja</h6>
+			<textarea placeholder="alamat"></textarea>
+			<h6>Jurusan</h6>
+			<select name="Jurusan">
+				<option value="teknik informatika">Teknik Informatika</option>
+				<option value="Psikologi">psikologi</option>
+				<option value="Pemasaran">Pemasaran</option>
+				<option value="Komunikasi">Komunikasi</option>
+				<option value="lainnya">lainnya<input type="text" name="Jurusan" placeholder="lainnya"></option>
+			</select>
+		</div>
+		<div>
+			<h4>DATA PENDIDIKAN CALON PMB</h4>
+			<h6>Sekolah Asal</h6>
+			<select name="sekolah_asal">
+				<option value="SMK Bina cendekia">SMK Bina cendekia</option>
+				<option value="SMK Negeri 1 cirebon">SMK Negeri 1 Cirebon</option>
+				<option value="SMK Negeri 1 Mundu">SMK negeri 1 Mundu</option>
+				<option value="SMA Negeri 1 Cirebon">SMA Negeri 1 cirebon</option>
+				<option value="lainnya">lainnya<input type="text" name="sekolah_asal" placeholder="lainnya"></option>
+			</select>
+			<h6>Tahun Lulus</h6>
+			<input type="date" name="tahun_lulus">
+			<h6>No Ijasah</h6>
+			<input type="number" name="no_ijasah" placeholder="no Ijasah">
+		</div>
+		<div>
+			<h4>-----------------------------------------------------------------------------------------</h4>
+			<input type="date" name="tanggal_form" placeholder="tanggal formulir dibuat">
+			<p>ttd materai</p>
+			<br><input type="text" name="nama_pengirimform" placeholder="nama pembuat Formulir">
+		</div>
+		<div>
+			<input type="submit" name="simpan" value="Kirim" class="btn-kirim">
+		</div>
+	</form>	
+</body>
+</html>
