@@ -67,7 +67,7 @@
 		table,.menu-4{
 			margin: 0px 10px 0px 10px;
 		}
-@media screen and (max-width:6){
+@media screen and (max-width:600px){
 	body{
 		font-size: small;
 		width: 100%;
