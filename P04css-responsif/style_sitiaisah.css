@@ -79,19 +79,19 @@
 		font-size: small;
 	}
 	th{
-		width: 100px;
+		width: auto;
 		font-size: small;
 	}
 	input,select{
-		width: 90%;
-		height: 5%;
+		width: auto;
+		height: auto;
 		font-size: small;
 	}
 	.btn-kirim{
-		width: 100px;
-		height: 5%;
+		width: auto;
+		height: auto;
 		margin-bottom: 5%;
 	}
 	.radio{
-		height: 5%;
+		height: auto;
 	}
