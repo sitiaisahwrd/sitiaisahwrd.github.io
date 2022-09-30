@@ -7,129 +7,279 @@
 	<link rel="stylesheet" type="text/css" href="style_sitiaisah.css">
 </head>
 <body>
-	<form>
-		<header>
-			<img src="logo.jpg">
-		</header>
-		<h3> FORMULIR PENDAFTARAN PMB </h3>
-		<div>
-			<h4>DATA NAMA CALON PMB</h4>
-			<h6>nama calon</h6>
-			<input type="text" name="nama" placeholder="nama calon">
-			<h6>email</h6>
-			<input type="text" name="email" placeholder="nama email">
-			<h6>password</h6>
-			<input type="password" name="password" placeholder="password">
-			<h6>No HP</h6>
-			<input type="number" name="no_hp" placeholder="no hp">
-			<h6>No Whatsapp</h6>
-			<input type="number" name="no_wa" placeholder="no Whatsapp">
-			<h6>NIK</h6>
-			<input type="number" name="nik" placeholder="no nik">
-			<h6>no NISN</h6>
-			<input type="number" name="no_nisn" placeholder="no nisn">
-			<h6>tempat lahir</h6>
-			<input type="text" name="tempat_lahir" placeholder="tempat lahhir">
-			<h6>tanggal lahir</h6>
-			<input type="date" name="tgl_lahir" placeholder="tanggal lahir">
-			<h6>Jenis Kelamin</h6>
-				<input type="radio" name="jenis_kelamin" value="laki laki">laki-laki
-			<br><input type="radio" name="jenis_kelamin" value="perempuan">perempuan</td>
-			<h6>status</h6>
-				<input type="radio" name="Status" value="belum menikah">belum menikah
-			<br><input type="radio" name="Status" value="sudah menikah">sudah menikah</td>
-			<h6>Agama</h6>
-			<select name="Agama">
-			<option value="islam">Islam</option>
-			<option value="Kristen_protestan">Kristen protestan</option>
-			<option value="Kristen_Khatolik">Kristen khatolik</option>
-			<option value="Hindu">Hindu</option>
-			<option value="Budha">Budha</option>
-			<option value="Khong_HuCu">Khong Hu Cu</option>
-			</select>
-			<h6>Warga negara</h6>
-			<input type="radio" name="warga_negara" value="WNI">WNI
-			<br><input type="radio" name="warga_negara" value="WNA">WNA</td>
-			<h6>Alamat</h6>
-			<textarea placeholder="alamat"></textarea>
-			<br>Rt<input type="number" name="Rt" placeholder="Rt" class="kolom-rt">
-				Rw<input type="number" name="Rw" placeholder="Rw" class="kolom-rt">
-			<br>
-			<input type="text" name="desa" placeholder="Desa">
-			<br>
-			<input type="number" name="kode_pos" placeholder="kode pos">
-			<h6>no Kartu Indonesia Pintar</h6>
-			<input type="number" name="no_kip" placeholder="no kip">
-		</div>
-		<div>
-			<h4>DATA ORANGTUA</h4>
-			<h6>Nama Ayah</h6>
-			<input type="text" name="nama_ayah" placeholder="nama ayah">
-			<h6>Pekerjaan Ayah</h6>
-			<select name="pekerjaan">
-				<option value="PNS">PNS</option>
-				<option value="Dokter">Dokter</option>
-				<option value="Wiraswasta">Wiraswasta</option>
-				<option value="lainnya">lainnya<input type="text" name="pekerjaan" placeholder="lainnya"></option>
-			</select>
-			<h6>Nama Ibu</h6>
-			<input type="text" name="nama_ibu" placeholder="nama ibu">
-			<h6>Pekerjaan Ibu</h6>
-			<select name="pekerjaan">
-				<option value="PNS">PNS</option>
-				<option value="Dokter">Dokter</option>
-				<option value="Wiraswasta">Wiraswasta</option>
-				<option value="IRT">Ibu rumah tangga</option>
-				<option value="lainnya">lainnya<input type="text" name="pekerjaan" placeholder="lainnya"></option>
-			</select>
-		</div>
-		<div>
-			<h4>DATA PEKERJAAN CALON PMB</h4>
-			<h6>Instansi Kerja</h6>
-			<input type="text" name="Instansi" placeholder="nama Instansi">
-			<h6>Jabatan Kerja</h6>
-			<select name="jabatan">
-				<option value="manager">manager</option>
-				<option value="HR">HR</option>
-				<option value="Marketing">marketing</option>
-				<option value="Administrasi">Administrasi</option>
-				<option value="lainnya">lainnya<input type="text" name="jabatan" placeholder="lainnya"></option>
-			</select>
-			<h6>Alamat Kerja</h6>
-			<textarea placeholder="alamat"></textarea>
-			<h6>Jurusan</h6>
-			<select name="Jurusan">
-				<option value="teknik informatika">Teknik Informatika</option>
-				<option value="Psikologi">psikologi</option>
-				<option value="Pemasaran">Pemasaran</option>
-				<option value="Komunikasi">Komunikasi</option>
-				<option value="lainnya">lainnya<input type="text" name="Jurusan" placeholder="lainnya"></option>
-			</select>
-		</div>
-		<div>
-			<h4>DATA PENDIDIKAN CALON PMB</h4>
-			<h6>Sekolah Asal</h6>
-			<select name="sekolah_asal">
-				<option value="SMK Bina cendekia">SMK Bina cendekia</option>
-				<option value="SMK Negeri 1 cirebon">SMK Negeri 1 Cirebon</option>
-				<option value="SMK Negeri 1 Mundu">SMK negeri 1 Mundu</option>
-				<option value="SMA Negeri 1 Cirebon">SMA Negeri 1 cirebon</option>
-				<option value="lainnya">lainnya<input type="text" name="sekolah_asal" placeholder="lainnya"></option>
-			</select>
-			<h6>Tahun Lulus</h6>
-			<input type="date" name="tahun_lulus">
-			<h6>No Ijasah</h6>
-			<input type="number" name="no_ijasah" placeholder="no Ijasah">
-		</div>
-		<div>
-			<h4>-----------------------------------------------------------------------------------------</h4>
-			<input type="date" name="tanggal_form" placeholder="tanggal formulir dibuat">
-			<p>ttd materai</p>
-			<br><input type="text" name="nama_pengirimform" placeholder="nama pembuat Formulir">
-		</div>
-		<div>
-			<input type="submit" name="simpan" value="Kirim" class="btn-kirim">
-		</div>
-	</form>	
+<div class="sitiaisah">
+  <header>
+    <img src="logo.jpg">
+  </header>
+  <form action="">
+    <h4>FORM PENDAFTARAN</h4>
+    <div class="row">
+      <div class="kolom-aisah">
+        <label>Nomor Pendaftaran</label>
+      </div>
+      <div class="kolom-input-aisah">
+        <input type="text" placeholder="Nomor Pendaftaran">
+      </div>
+    </div>
+    <div class="row">
+      <div class="kolom-aisah">
+        <label>Nama Lengkap calon mahasiswa</label>
+      </div>
+      <div class="kolom-input-aisah">
+        <input type="text" placeholder="Nama calon mahasiswa">
+      </div>
+    </div>
+    <div class="row">
+      <div class="kolom-aisah">
+        <label>Tanggal Ujian</label>
+      </div>
+      <div class="kolom-input-aisah">
+        <input type="date" placeholder="tanggal">
+      </div>
+    </div>
+    <div class="row">
+      <div class="kolom-aisah">
+        <label>Jenis Kelamin</label>
+      </div>
+      <div class="kolom-input-aisah">
+       <select>
+          <option value="Laki Laki">laki laki</option>
+          <option value="Perempuan">Perempuan</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="kolom-aisah">
+        <label>Jenjang</label>
+      </div>
+      <div class="kolom-input-aisah">
+       <select>
+          <option value="australia">Diploma 3</option>
+          <option value="canada">Sarjana 1</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="kolom-aisah">
+        <label>Program Studi</label>
+      </div>
+      <div class="kolom-input-aisah">
+        <select>
+          <option value="Komputer Akuntansi">Komputer Akuntansi</option>
+          <option value="Teknik Informatika">Teknik Informatika</option>
+          <option value="Sistem Informasi">Sistem Informasi</option>
+          <option value="Rekayasa Perangkat Lunak">Rekayasa Perangkat Lunak</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="kolom-aisah">
+        <label>Kelas</label>
+      </div>
+      <div class="kolom-input-aisah">
+        <select>
+          <option value="Reguler">Reguler</option>
+          <option value="karyawan">karyawan</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="kolom-aisah">
+        <label>Waktu Kuliah</label>
+      </div>
+      <div class="kolom-input-aisah">
+        <select>
+          <option value="Pagi">Pagi</option>
+          <option value="Sore">Sore</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="kolom-aisah">
+        <label>Ukuran Almamater</label>
+      </div>
+      <div class="kolom-input-aisah">
+        <select>
+          <option value="small">Small</option>
+          <option value="medium">Medium</option>
+          <option value="Large">Large</option>
+          <option value="ekstra Large">Extra Large</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="kolom-aisah">
+        <label>Sistem Pembayaran</label>
+      </div>
+      <div class="kolom-input-aisah">
+        <select>
+          <option value="Angsuran">Angsuran</option>
+          <option value="Tunai">Tunai</option>
+        </select>
+      </div>
+    </div>
+    <h4>DATA PRIBADI</h4>
+
+    <div class="row">
+      <div class="kolom-aisah">
+        <label>Agama</label>
+      </div>
+      <div class="kolom-input-aisah">
+        <select id="country">
+          <option value="Islam">Islam</option>
+          <option value="Kristen">Kristen</option>
+          <option value="Khatolik">Khatolik</option>
+          <option value="Hindu">Hindu</option>
+          <option value="Budha">Budha</option>
+          <option value="Konghucu">Konghucu</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="kolom-aisah">
+        <label>Tempat, Tanggal Lahir</label>
+      </div>
+      <div class="kolom-input-aisah">
+        <input type="text" placeholder="Tempat lahir">
+        <input type="date">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="kolom-aisah">
+        <label>Alamat Lengkap</label>
+      </div>
+      <div class="kolom-input-aisah">
+        <textarea placeholder="Alamat lengkap" style="height:200px"></textarea>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="kolom-aisah">
+        <label>Nomor Telepon</label>
+      </div>
+      <div class="kolom-input-aisah">
+        <input type="text" placeholder="Nomor Telepon">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="kolom-aisah">
+        <label>Kewarganegaraan</label>
+      </div>
+      <div class="kolom-input-aisah">
+       <select>
+          <option value="WNI">WNI</option>
+          <option value="WNA">WNA</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="kolom-aisah">
+        <label>Golongan darah</label>
+      </div>
+      <div class="kolom-input-aisah">
+       <select>
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="AB">AB</option>
+          <option value="O">O</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="kolom-aisah">
+        <label>Nama Orang Tua / Wali</label>
+      </div>
+      <div class="kolom-input-aisah">
+       <input type="text" placeholder="Nama Orangtua/wali">
+    </div>
+  </div>
+    <div class="row">
+      <div class="kolom-aisah">
+        <label>Pekerjaan</label>
+      </div>
+      <div class="kolom-input-aisah">
+        <select>
+          <option value="pns/tni/polri">PNS/TNI/POLRI</option>
+          <option value="wiraswasta">Wiraswasta</option>
+          <option value="swasta">Swasta</option>
+          <option value="danlainlain">dan lain lain</option>
+        </select>
+      </div>
+    </div>
+    <h4>PENDIDIKAN TERAKHIR</h4>
+
+    <div class="row">
+      <div class="kolom-aisah">
+        <label>Asal SMA / SMK / Perguruan Tinggi</label>
+      </div>
+      <div class="kolom-input-aisah">
+        <input type="text" placeholder="Nama Sekolah">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="kolom-aisah">
+        <label>Status sekolah / perguruan tinggi</label>
+      </div>
+      <div class="kolom-input-aisah">
+        <select>
+          <option value="negeri">Negeri</option>
+          <option value="swasta">Swasta</option>
+      </div>
+    </div>
+    <div class="row">
+      <div class="kolom-aisah">
+        <label>Jurusan</label>
+      </div>
+      <div class="kolom-input-aisah">
+        <input type="text" placeholder="masukan jurusan">
+      </div>
+    </div>
+    <div class="row">
+      <div class="kolom-aisah">
+        <label>Nomor Ijasah SMA / SMK / D3 / S1</label>
+      </div>
+      <div class="kolom-input-aisah">
+        <input type="number" placeholder="Nomor Ijasah">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="kolom-aisah">
+        <label>Tanggal Lulus</label>
+      </div>
+      <div class="kolom-input-aisah">
+        <input type="date">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="kolom-aisah">
+        <label>Nilai NEM STTB / Indek Prestasi Komulatif (IPK)</label>
+      </div>
+      <div class="kolom-input-aisah">
+        <input type="number" placeholder="masukan nlai ipk">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="kolom-aisah">
+        <label>Upload Tanda tangan Digital</label>
+      </div>
+      <div class="kolom-input-aisah">
+        <input type="file" placeholder="upload bukti ttd">
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="kirim">
+    </div>
+  </form>
+</div>
+
 </body>
 </html>
